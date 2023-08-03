@@ -19,4 +19,6 @@ seq = iaa.Sequential([
 #根据imgaug 官网案例替换
  https://imgaug.readthedocs.io/en/latest/source/overview/meta.html#someof 
 
-# strong-name 批量替换命名
+# strong-name.py 批量替换命名
+
+# split-file  脚本可以指定路径 把一个路径下的xml和图片放到2个不同的路径

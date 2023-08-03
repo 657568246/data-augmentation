@@ -18,3 +18,5 @@ seq = iaa.Sequential([
 
 #根据imgaug 官网案例替换
  https://imgaug.readthedocs.io/en/latest/source/overview/meta.html#someof 
+
+# strong-name 批量替换命名

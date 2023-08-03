@@ -1,6 +1,8 @@
 # data-augmentation
 Dataset and label preprocessing for tools
 
+pip install imgaug
+pip install six numpy scipy matplotlib scikit-image opencv-python imageio tqdm
 
 # 使用方法 
  IMG_DIR = "F:\\data\\imge\\"  输入图片路径

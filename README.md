@@ -14,4 +14,7 @@ pip install six numpy scipy matplotlib scikit-image opencv-python imageio tqdm
 
 seq = iaa.Sequential([ 
 自定义内容添加！ 
-    ]) 
+    ])  
+
+#根据imgaug 官网案例替换
+ https://imgaug.readthedocs.io/en/latest/source/overview/meta.html#someof 

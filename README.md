@@ -23,4 +23,6 @@ seq = iaa.Sequential([
 
 # split-file  脚本可以指定路径 把一个路径下的xml和图片放到2个不同的路径
 # coco2yoyo.py 
+环境配置：pip install pycocotools 
+         pip install scikit-image
 可以将coco数据集提取自定义类别，和图片，然后将标签转为xml格式

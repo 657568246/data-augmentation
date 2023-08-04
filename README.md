@@ -1,9 +1,9 @@
-# data-augmentation
-Dataset and label preprocessing for tools
+# data-augmentation.py
+Dataset and label preprocessing for tools:
 
-pip install imgaug
+   pip install imgaug
 
-pip install six numpy scipy matplotlib scikit-image opencv-python imageio tqdm
+   pip install six numpy scipy matplotlib scikit-image opencv-python imageio tqdm
 
 # 使用方法 
  IMG_DIR = "F:\\data\\imge\\"  输入图片路径
@@ -23,6 +23,11 @@ seq = iaa.Sequential([
 
 # split-file  脚本可以指定路径 把一个路径下的xml和图片放到2个不同的路径
 # coco2yoyo.py 
-环境配置：pip install pycocotools 
+环境配置：
+         
+         pip install pycocotools 
+         
          pip install scikit-image
-可以将coco数据集提取自定义类别，和图片，然后将标签转为xml格式
+
+         
+可以将coco数据集提取自定义类和图片，然后将标签转为xml格式

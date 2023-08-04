@@ -16,14 +16,7 @@ datasets_list = ['train2017']
 # coco有80类，这里写要提取类的名字，
 classes_names = ['person']
 # 包含所有类别的原coco数据集路径
-'''
-目录格式如下：
-$COCO_PATH
-----|annotations
-----|train2017
-----|val2017
-----|test2017
-'''
+
 dataDir = 'F:/data/' #主路径头 
  
 headstr = """\

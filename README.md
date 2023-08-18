@@ -32,4 +32,7 @@ seq = iaa.Sequential([
          pip install scikit-image
 
          
-可以将coco数据集提取自定义类和图片，然后将标签转为xml格式
+可以将coco数据集提取自定义类和图片，然后将标签转为xml格式 
+# yolo2xml.py 
+可以将yolo的标签改成xml格式转化
+

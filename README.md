@@ -34,5 +34,8 @@ seq = iaa.Sequential([
          
 可以将coco数据集提取自定义类和图片，然后将标签转为xml格式 
 # yolo2xml.py 
-可以将yolo的标签改成xml格式转化
+可以将yolo的标签改成xml格式转化 
+
+# video.py 
+可以将视频按自定义帧率提取图片到自定义路径
 
